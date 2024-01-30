@@ -28,14 +28,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
-	        <repositories>
-                   <repository>
-                     <id>nexus</id>
-                     <name>wallmart-snapshot</name>
-                     <url>http://3.86.245.87:8081/repository/wallmart-release/</url>
-                   </repository>
-                </repositories>
-
+	    
 	<dependencies>
 		
 		<dependency>
@@ -105,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Sadaq Release Nexus Repository</name>
-	      <url>http://52.90.6.32:8081/repository/wallmart-release/</url>
+	      <url>http://3.86.245.87:8081/repository/wallmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Sadaq Release Snapshot Nexus Repository </name>
-	      <url>http://52.90.6.32:8081/repository/wallmart-snapshot/</url>
+	      <name>Sadaq Snapshot Nexus Repository </name>
+	      <url>http://3.86.245.87:8081/repository/wallmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
